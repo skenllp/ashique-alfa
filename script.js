@@ -80,6 +80,7 @@ if (musicControl) {
 function openInvitation() {
   site.classList.add("opened");
   document.body.classList.remove("locked");
+  playAudio();
   if (musicControl) {
     musicControl.classList.add("visible");
   }

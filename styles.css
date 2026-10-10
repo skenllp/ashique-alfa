@@ -222,9 +222,9 @@ body.locked {
 .hero {
   padding: 72px 18px;
   background:
-    linear-gradient(180deg, rgba(3, 0, 1, 0.60) 0%, rgba(3, 0, 1, 0.35) 40%, rgba(3, 0, 1, 0.65) 80%, #030001 100%),
+    linear-gradient(180deg, rgba(3, 0, 1, 0.65) 0%, rgba(3, 0, 1, 0.38) 40%, rgba(3, 0, 1, 0.72) 80%, #030001 100%),
     radial-gradient(ellipse at 50% 60%, rgba(230, 33, 23, 0.12) 0%, transparent 55%),
-    url('rashid.png') no-repeat center center;
+    url('ashique.png') no-repeat center center;
   background-size: cover;
 }
 
@@ -260,6 +260,7 @@ body.locked {
   width: min(900px, 100%);
   text-align: center;
   animation: rise 1.2s ease both;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.85);
 }
 
 
